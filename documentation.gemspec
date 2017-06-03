@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://adamcooke.io"
   s.licenses    = ['MIT']
   s.summary     = "A Rails engine to provider the ability to add documentation to a Rails application"
-  s.description = "It does cool stuff!"
+  s.description = "It does cool stuff! really"
 
   s.files = Dir["{app,config,db,doc,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
