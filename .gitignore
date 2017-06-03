@@ -1,2 +1,4 @@
 *.gem
 test/db/*.sqlite3
+.idea/
+Gemfile.lock

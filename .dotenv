@@ -1,0 +1,9 @@
+export PATH=$(pwd)/bin:$PATH
+#
+# aktivated via rake
+#
+# rake dotenv
+export RAILS_ENV=development
+
+
+
