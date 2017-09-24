@@ -40,7 +40,7 @@ module Documentation
   end
 
   def config
-    @config ||= OpenStruct.new( Documentation::Setup.default_config)
+    @config ||= OpenStruct.new( Setup.default_config)
   end
 
 
