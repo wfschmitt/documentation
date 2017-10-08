@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -11,34 +10,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140724114255) do
+ActiveRecord::Schema.define(version: 20171008224509) do
 
-  create_table "documentation_pages", force: true do |t|
-    t.string   "title"
-    t.string   "permalink"
-    t.text     "content"
-    t.text     "compiled_content"
-    t.integer  "parent_id"
-    t.integer  "position"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "documentation_pages", force: :cascade do |t|
+    t.string "title"
+    t.string "permalink"
+    t.text "content"
+    t.text "compiled_content"
+    t.integer "parent_id"
+    t.integer "position"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  create_table "documentation_screenshots", force: true do |t|
+  create_table "documentation_screenshots", force: :cascade do |t|
     t.string "alt_text"
   end
 
-  create_table "nifty_attachments", force: true do |t|
-    t.integer  "parent_id"
-    t.string   "parent_type"
-    t.string   "token"
-    t.string   "digest"
-    t.string   "role"
-    t.string   "file_name"
-    t.string   "file_type"
-    t.binary   "data",        limit: 10485760
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "nifty_attachments", force: :cascade do |t|
+    t.integer "parent_id"
+    t.string "parent_type"
+    t.string "token"
+    t.string "digest"
+    t.string "role"
+    t.string "file_name"
+    t.string "file_type"
+    t.binary "data", limit: 10485760
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
