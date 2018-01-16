@@ -29,18 +29,18 @@ module Documentation
 
   #
   # Sets the default configuration
-  class Setup
+  #class Setup
 
     # attr_reader :DEFAULT_CONFIGURATION
     #
-    def self.default_config
-      DEFAULT_CONFIGURATION
-    end
+   # def self.default_config
+    #  DEFAULT_CONFIGURATION
+   # end
 
-  end
+  #end
 
   def config
-    @config ||= OpenStruct.new( Setup.default_config)
+    @config ||= OpenStruct.new( DEFAULT_CONFIGURATION )
   end
 
 
