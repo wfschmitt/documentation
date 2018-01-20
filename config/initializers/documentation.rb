@@ -18,5 +18,8 @@ DEFAULT_CONFIGURATION = {
   :searcher => Documentation::Searchers::Simple.new
 }
 
+  def self.config
+    @config ||= OpenStruct.new( DEFAULT_CONFIGURATION )
+  end
 
 end
