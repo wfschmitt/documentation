@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Module: Documentation::ViewHelpers
+  
+    &mdash; Documentation by YARD 0.9.12
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "Documentation::ViewHelpers";
+  relpath = '../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../_index.html">Index (V)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span>
+     &raquo; 
+    <span class="title">ViewHelpers</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Module: Documentation::ViewHelpers
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+  <dl>
+    <dt>Included in:</dt>
+    <dd><span class='object_link'><a href="ApplicationHelper.html" title="Documentation::ApplicationHelper (module)">ApplicationHelper</a></span></dd>
+  </dl>
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/documentation/view_helpers.rb</dd>
+  </dl>
+  
+</div>
+
+
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_authorizer-instance_method" title="#documentation_authorizer (instance method)">#<strong>documentation_authorizer</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return the documentation authorizer.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_breadcrumb_for-instance_method" title="#documentation_breadcrumb_for (instance method)">#<strong>documentation_breadcrumb_for</strong>(page, options = {})  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return a breadcrumb for the given page.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_content_for-instance_method" title="#documentation_content_for (instance method)">#<strong>documentation_content_for</strong>(page)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return appropriate content for a given page.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_doc_root-instance_method" title="#documentation_doc_root (instance method)">#<strong>documentation_doc_root</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return the documentation document root.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_edit_page_path-instance_method" title="#documentation_edit_page_path (instance method)">#<strong>documentation_edit_page_path</strong>(page)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Path to edit a page in the manager UI.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_navigation_tree_for-instance_method" title="#documentation_navigation_tree_for (instance method)">#<strong>documentation_navigation_tree_for</strong>(page, options = {})  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return a default navigation tree for the given page.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_page_path-instance_method" title="#documentation_page_path (instance method)">#<strong>documentation_page_path</strong>(page)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Path to view a page in the manager UI.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_search_pagination-instance_method" title="#documentation_search_pagination (instance method)">#<strong>documentation_search_pagination</strong>(result, options = {})  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return search pagination links.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_search_results-instance_method" title="#documentation_search_results (instance method)">#<strong>documentation_search_results</strong>(result, options = {})  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return the search results.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#documentation_search_summary-instance_method" title="#documentation_search_summary (instance method)">#<strong>documentation_search_summary</strong>(result)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Return summary information for search results.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="documentation_authorizer-instance_method">
+  
+    #<strong>documentation_authorizer</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return the documentation authorizer</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+131
+132
+133</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 131</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_authorizer'>documentation_authorizer</span>
+  <span class='ivar'>@documentation_authorizer</span> <span class='op'>||=</span> <span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='period'>.</span><span class='id identifier rubyid_config'><span class='object_link'><a href="../Documentation.html#config-instance_method" title="Documentation#config (method)">config</a></span></span><span class='period'>.</span><span class='id identifier rubyid_authorizer'>authorizer</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_controller'>controller</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_breadcrumb_for-instance_method">
+  
+    #<strong>documentation_breadcrumb_for</strong>(page, options = {})  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return a breadcrumb for the given page</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 21</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_breadcrumb_for'>documentation_breadcrumb_for</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:root_link</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:root_link</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span> <span class='op'>?</span> <span class='id identifier rubyid_t'>t</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>documentation.helpers.documentation_breadcrumb_for.default_root_link</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='op'>:</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:root_link</span><span class='rbracket'>]</span>
+  <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:class</span><span class='rbracket'>]</span>     <span class='op'>||=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>breadcrumb</span><span class='tstring_end'>&#39;</span></span>
+
+  <span class='const'>String</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_tap'>tap</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_s'>s</span><span class='op'>|</span>
+    <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;nav class=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:class</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;&lt;ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+
+    <span class='kw'>if</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:root_link</span><span class='rbracket'>]</span>
+      <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;&lt;a href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='period'>.</span><span class='id identifier rubyid_blank?'>blank?</span> <span class='op'>?</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/</span><span class='tstring_end'>&#39;</span></span> <span class='op'>:</span> <span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:root_link</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+    <span class='kw'>end</span>
+
+    <span class='kw'>if</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_is_a?'>is_a?</span><span class='lparen'>(</span><span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Page.html" title="Documentation::Page (class)">Page</a></span></span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_breadcrumb'>breadcrumb</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_child'>child</span><span class='op'>|</span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;&lt;a href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_child'>child</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_child'>child</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+      <span class='kw'>end</span>
+    <span class='kw'>end</span>
+
+    <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/ul&gt;&lt;/nav&gt;</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span><span class='period'>.</span><span class='id identifier rubyid_html_safe'>html_safe</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_content_for-instance_method">
+  
+    #<strong>documentation_content_for</strong>(page)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return appropriate content for a given page</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 96</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_content_for'>documentation_content_for</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='rparen'>)</span>
+  <span class='comment'># Get the content
+</span>  <span class='id identifier rubyid_content'>content</span> <span class='op'>=</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_compiled_content'>compiled_content</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span>
+
+  <span class='comment'># Insert navigation
+</span>  <span class='id identifier rubyid_content'>content</span><span class='period'>.</span><span class='id identifier rubyid_gsub!'>gsub!</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;p class=&#39;&#39;&gt;{{nav}}&lt;/p&gt;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='kw'>do</span>
+    <span class='id identifier rubyid_children'>children</span> <span class='op'>=</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_children'>children</span>
+    <span class='id identifier rubyid_children'>children</span> <span class='op'>=</span> <span class='id identifier rubyid_children'>children</span><span class='period'>.</span><span class='id identifier rubyid_select'>select</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='id identifier rubyid_documentation_authorizer'>documentation_authorizer</span><span class='period'>.</span><span class='id identifier rubyid_can_view_page?'>can_view_page?</span><span class='lparen'>(</span><span class='id identifier rubyid_c'>c</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+    <span class='id identifier rubyid_items'>items</span> <span class='op'>=</span> <span class='id identifier rubyid_children'>children</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;&lt;a href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_c'>c</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_c'>c</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span>
+    <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;ul class=&#39;pages&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_items'>items</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span>
+
+  <span class='comment'># Set the document root as appropriate
+</span>  <span class='id identifier rubyid_content'>content</span><span class='period'>.</span><span class='id identifier rubyid_gsub!'>gsub!</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>{{docRoot}}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='rparen'>)</span>
+
+  <span class='comment'># Return HTML safe content
+</span>  <span class='id identifier rubyid_content'>content</span><span class='period'>.</span><span class='id identifier rubyid_html_safe'>html_safe</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_doc_root-instance_method">
+  
+    #<strong>documentation_doc_root</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return the documentation document root</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+118
+119
+120
+121
+122
+123
+124
+125
+126</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 118</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span>
+  <span class='ivar'>@documentation_doc_root</span> <span class='op'>||=</span> <span class='kw'>begin</span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_controller'>controller</span><span class='period'>.</span><span class='id identifier rubyid_is_a?'>is_a?</span><span class='lparen'>(</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="ApplicationController.html" title="Documentation::ApplicationController (class)">ApplicationController</a></span></span><span class='rparen'>)</span>
+      <span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Engine.html" title="Documentation::Engine (class)">Engine</a></span></span><span class='period'>.</span><span class='id identifier rubyid_mounted_path'><span class='object_link'><a href="Engine.html#mounted_path-class_method" title="Documentation::Engine.mounted_path (method)">mounted_path</a></span></span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='period'>.</span><span class='id identifier rubyid_sub'>sub</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>\/$</span><span class='regexp_end'>/</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='kw'>else</span>
+      <span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='period'>.</span><span class='id identifier rubyid_config'><span class='object_link'><a href="../Documentation.html#config-instance_method" title="Documentation#config (method)">config</a></span></span><span class='period'>.</span><span class='id identifier rubyid_preview_path_prefix'>preview_path_prefix</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='period'>.</span><span class='id identifier rubyid_sub'>sub</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>\/$</span><span class='regexp_end'>/</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_edit_page_path-instance_method">
+  
+    #<strong>documentation_edit_page_path</strong>(page)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Path to edit a page in the manager UI</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+7
+8
+9</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 7</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_edit_page_path'>documentation_edit_page_path</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='rparen'>)</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Engine.html" title="Documentation::Engine (class)">Engine</a></span></span><span class='period'>.</span><span class='id identifier rubyid_mounted_path'><span class='object_link'><a href="Engine.html#mounted_path-class_method" title="Documentation::Engine.mounted_path (method)">mounted_path</a></span></span><span class='embexpr_end'>}</span><span class='tstring_content'>/edit/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_navigation_tree_for-instance_method">
+  
+    #<strong>documentation_navigation_tree_for</strong>(page, options = {})  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return a default navigation tree for the given page</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 45</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_navigation_tree_for'>documentation_navigation_tree_for</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_active_page_type'>active_page_type</span> <span class='op'>=</span> <span class='kw'>nil</span>
+  <span class='id identifier rubyid_items'>items</span> <span class='op'>=</span> <span class='const'>String</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_tap'>tap</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_s'>s</span><span class='op'>|</span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_is_a?'>is_a?</span><span class='lparen'>(</span><span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Page.html" title="Documentation::Page (class)">Page</a></span></span><span class='rparen'>)</span>
+
+      <span class='id identifier rubyid_pages'>pages</span> <span class='op'>=</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_navigation'>navigation</span><span class='period'>.</span><span class='id identifier rubyid_select'>select</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_p'>p</span><span class='comma'>,</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='id identifier rubyid_documentation_authorizer'>documentation_authorizer</span><span class='period'>.</span><span class='id identifier rubyid_can_view_page?'>can_view_page?</span><span class='lparen'>(</span><span class='id identifier rubyid_p'>p</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+
+      <span class='id identifier rubyid_pages'>pages</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_p'>p</span><span class='comma'>,</span> <span class='id identifier rubyid_children'>children</span><span class='op'>|</span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;a </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span> <span class='op'>==</span> <span class='id identifier rubyid_p'>p</span> <span class='op'>?</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>class=&#39;active&#39;</span><span class='tstring_end'>&quot;</span></span> <span class='op'>:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='embexpr_end'>}</span><span class='tstring_content'> href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_p'>p</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_p'>p</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='id identifier rubyid_active_page_type'>active_page_type</span> <span class='op'>=</span> <span class='symbol'>:root</span> <span class='kw'>if</span> <span class='id identifier rubyid_page'>page</span> <span class='op'>==</span> <span class='id identifier rubyid_p'>p</span>
+        <span class='kw'>unless</span> <span class='id identifier rubyid_children'>children</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+          <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+          <span class='id identifier rubyid_children'>children</span><span class='period'>.</span><span class='id identifier rubyid_select'>select</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='id identifier rubyid_documentation_authorizer'>documentation_authorizer</span><span class='period'>.</span><span class='id identifier rubyid_can_view_page?'>can_view_page?</span><span class='lparen'>(</span><span class='id identifier rubyid_c'>c</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_p'>p</span><span class='op'>|</span>
+            <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;&lt;a </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span> <span class='op'>==</span> <span class='id identifier rubyid_p'>p</span> <span class='op'>?</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>class=&#39;active&#39;</span><span class='tstring_end'>&quot;</span></span> <span class='op'>:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='embexpr_end'>}</span><span class='tstring_content'> href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_p'>p</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_p'>p</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+            <span class='id identifier rubyid_active_page_type'>active_page_type</span> <span class='op'>=</span> <span class='symbol'>:child</span> <span class='kw'>if</span> <span class='id identifier rubyid_page'>page</span> <span class='op'>==</span> <span class='id identifier rubyid_p'>p</span>
+          <span class='kw'>end</span>
+          <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='kw'>end</span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+      <span class='kw'>end</span>
+    <span class='kw'>else</span>
+      <span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Page.html" title="Documentation::Page (class)">Page</a></span></span><span class='period'>.</span><span class='id identifier rubyid_roots'>roots</span><span class='period'>.</span><span class='id identifier rubyid_select'>select</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_p'>p</span><span class='op'>|</span> <span class='id identifier rubyid_documentation_authorizer'>documentation_authorizer</span><span class='period'>.</span><span class='id identifier rubyid_can_view_page?'>can_view_page?</span><span class='lparen'>(</span><span class='id identifier rubyid_p'>p</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_page'>page</span><span class='op'>|</span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;&lt;a href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+      <span class='kw'>end</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span>
+
+  <span class='const'>String</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_tap'>tap</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_output'>output</span><span class='op'>|</span>
+    <span class='id identifier rubyid_output'>output</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:include_back</span><span class='rbracket'>]</span> <span class='op'>&amp;&amp;</span> <span class='id identifier rubyid_page'>page</span> <span class='op'>&amp;&amp;</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_breadcrumb'>breadcrumb</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span> <span class='op'>&gt;</span> <span class='int'>1</span>
+      <span class='kw'>if</span> <span class='id identifier rubyid_active_page_type'>active_page_type</span> <span class='op'>==</span> <span class='symbol'>:root</span> <span class='op'>&amp;&amp;</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_has_children?'>has_children?</span>
+        <span class='id identifier rubyid_back_page'>back_page</span> <span class='op'>=</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_breadcrumb'>breadcrumb</span><span class='lbracket'>[</span><span class='op'>-</span><span class='int'>2</span><span class='rbracket'>]</span>
+      <span class='kw'>elsif</span> <span class='id identifier rubyid_active_page_type'>active_page_type</span> <span class='op'>==</span> <span class='symbol'>:child</span> <span class='op'>&amp;&amp;</span> <span class='op'>!</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_has_children?'>has_children?</span>
+        <span class='id identifier rubyid_back_page'>back_page</span> <span class='op'>=</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_breadcrumb'>breadcrumb</span><span class='lbracket'>[</span><span class='op'>-</span><span class='int'>3</span><span class='rbracket'>]</span>
+      <span class='kw'>else</span>
+        <span class='id identifier rubyid_back_page'>back_page</span> <span class='op'>=</span> <span class='kw'>nil</span>
+      <span class='kw'>end</span>
+
+      <span class='kw'>if</span> <span class='id identifier rubyid_back_page'>back_page</span>
+        <span class='id identifier rubyid_output'>output</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li class=&#39;back&#39;&gt;&lt;a href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_back_page'>back_page</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;&amp;larr; Back to </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_back_page'>back_page</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+      <span class='kw'>end</span>
+    <span class='kw'>end</span>
+    <span class='id identifier rubyid_output'>output</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_items'>items</span>
+    <span class='id identifier rubyid_output'>output</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span><span class='period'>.</span><span class='id identifier rubyid_html_safe'>html_safe</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_page_path-instance_method">
+  
+    #<strong>documentation_page_path</strong>(page)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Path to view a page in the manager UI</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+14
+15
+16</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 14</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_page_path'>documentation_page_path</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='rparen'>)</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='op'>::</span><span class='const'><span class='object_link'><a href="../Documentation.html" title="Documentation (module)">Documentation</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Engine.html" title="Documentation::Engine (class)">Engine</a></span></span><span class='period'>.</span><span class='id identifier rubyid_mounted_path'><span class='object_link'><a href="Engine.html#mounted_path-class_method" title="Documentation::Engine.mounted_path (method)">mounted_path</a></span></span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_try'>try</span><span class='lparen'>(</span><span class='symbol'>:full_permalink</span><span class='rparen'>)</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_search_pagination-instance_method">
+  
+    #<strong>documentation_search_pagination</strong>(result, options = {})  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return search pagination links</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 169</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_search_pagination'>documentation_search_pagination</span><span class='lparen'>(</span><span class='id identifier rubyid_result'>result</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='const'>String</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_tap'>tap</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_s'>s</span><span class='op'>|</span>
+    <span class='kw'>unless</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_first_page?'>first_page?</span>
+      <span class='id identifier rubyid_querystring'>querystring</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='symbol'>:query</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_query'>query</span><span class='comma'>,</span> <span class='symbol'>:page</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_page'>page</span> <span class='op'>-</span> <span class='int'>1</span><span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_to_query'>to_query</span>
+      <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_link_to'>link_to</span><span class='lparen'>(</span><span class='id identifier rubyid_t'>t</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>documentation.helpers.documentation_search_pagination.previous</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/search?</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_querystring'>querystring</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='symbol'>:class</span> <span class='op'>=&gt;</span> <span class='lbracket'>[</span><span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:link_class</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:previous_link_class</span><span class='rbracket'>]</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_compact'>compact</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'> </span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+
+    <span class='kw'>unless</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_last_page?'>last_page?</span>
+      <span class='id identifier rubyid_querystring'>querystring</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='symbol'>:query</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_query'>query</span><span class='comma'>,</span> <span class='symbol'>:page</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_page'>page</span> <span class='op'>+</span> <span class='int'>1</span><span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_to_query'>to_query</span>
+      <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_link_to'>link_to</span><span class='lparen'>(</span><span class='id identifier rubyid_t'>t</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>documentation.helpers.documentation_search_pagination.next</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/search?</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_querystring'>querystring</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='symbol'>:class</span> <span class='op'>=&gt;</span> <span class='lbracket'>[</span><span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:link_class</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:next_link_class</span><span class='rbracket'>]</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_compact'>compact</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'> </span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span><span class='period'>.</span><span class='id identifier rubyid_html_safe'>html_safe</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_search_results-instance_method">
+  
+    #<strong>documentation_search_results</strong>(result, options = {})  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return the search results</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 145</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_search_results'>documentation_search_results</span><span class='lparen'>(</span><span class='id identifier rubyid_result'>result</span><span class='comma'>,</span> <span class='id identifier rubyid_options'>options</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:class</span><span class='rbracket'>]</span> <span class='op'>||=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>searchResults</span><span class='tstring_end'>&#39;</span></span>
+  <span class='const'>String</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_tap'>tap</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_s'>s</span><span class='op'>|</span>
+    <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;ul class=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_options'>options</span><span class='lbracket'>[</span><span class='symbol'>:class</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_results'>results</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_page'>page</span><span class='op'>|</span>
+      <span class='kw'>if</span> <span class='id identifier rubyid_documentation_authorizer'>documentation_authorizer</span><span class='period'>.</span><span class='id identifier rubyid_can_view_page?'>can_view_page?</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='rparen'>)</span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;li&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;h4&gt;&lt;a href=&#39;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_content'>&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/a&gt;&lt;/h4&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='kw'>unless</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_parents'>parents</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+          <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;p class=&#39;in&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_t'>t</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>documentation.helpers.documentation_search_results.in</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='embexpr_end'>}</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span>
+          <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_page'>page</span><span class='period'>.</span><span class='id identifier rubyid_parents'>parents</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='id identifier rubyid_link_to'>link_to</span><span class='lparen'>(</span><span class='id identifier rubyid_h'>h</span><span class='lparen'>(</span><span class='id identifier rubyid_c'>c</span><span class='period'>.</span><span class='id identifier rubyid_title'>title</span><span class='rparen'>)</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_documentation_doc_root'>documentation_doc_root</span><span class='embexpr_end'>}</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_c'>c</span><span class='period'>.</span><span class='id identifier rubyid_full_permalink'>full_permalink</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> &amp;#8658; </span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_html_safe'>html_safe</span>
+          <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/p&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='kw'>end</span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;p class=&#39;excerpt&#39;&gt;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_excerpt_for'>excerpt_for</span><span class='lparen'>(</span><span class='id identifier rubyid_page'>page</span><span class='rparen'>)</span><span class='embexpr_end'>}</span><span class='tstring_content'>&lt;/p&gt;</span><span class='tstring_end'>&quot;</span></span>
+        <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/li&gt;</span><span class='tstring_end'>&quot;</span></span>
+      <span class='kw'>end</span>
+    <span class='kw'>end</span>
+    <span class='id identifier rubyid_s'>s</span> <span class='op'>&lt;&lt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;/ul&gt;</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span><span class='period'>.</span><span class='id identifier rubyid_html_safe'>html_safe</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="documentation_search_summary-instance_method">
+  
+    #<strong>documentation_search_summary</strong>(result)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Return summary information for search results</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+138
+139
+140</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/documentation/view_helpers.rb', line 138</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_documentation_search_summary'>documentation_search_summary</span><span class='lparen'>(</span><span class='id identifier rubyid_result'>result</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_t'>t</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>documentation.helpers.documentation_search_summary.text</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='symbol'>:total_results</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_total_results'>total_results</span><span class='comma'>,</span> <span class='symbol'>:start_result</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_start_result_number'>start_result_number</span><span class='comma'>,</span> <span class='symbol'>:end_result</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_end_result_number'>end_result_number</span><span class='comma'>,</span> <span class='symbol'>:query</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_query'>query</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Jan 24 15:29:11 2018 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.12 (ruby-2.3.3).
+</div>
+
+    </div>
+  </body>
+</html>
