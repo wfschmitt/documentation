@@ -4,3 +4,6 @@ test/db/*.sqlite3
 Gemfile.lock
 !/.envrc.example
 /.envrc
+/.idea/workspace.xml
+/.idea/documentation.iml
+.idea
